@@ -1,0 +1,8 @@
+From mcr.microsoft.com/dotnet/sdk:6.0
+WORKDIR /app
+COPY . .
+RUN dotnet release
+RUN dotnet publish AspNetCoreMvc.csproj -c Release -o out
+WORKDIR out
+ENV ASPNETCORE_URLS="http://*:4300"
+ENTRYPOINT ["dotnet","AspNetCoreMvc.dll"]

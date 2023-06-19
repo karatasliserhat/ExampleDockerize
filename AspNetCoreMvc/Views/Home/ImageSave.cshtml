@@ -1,0 +1,15 @@
+﻿
+@{
+
+    Layout = "_Layout";
+    ViewData["Title"] = "ImageSave";
+}
+
+<h1>ImageSave</h1>
+
+<form asp-action="ImageSave" method="post" enctype="multipart/form-data">
+    <div class="form-control mb-2">
+        <input type="file" name="formFile" class="form-control" />
+    </div>
+    <input type="submit" name="Resim Ekle" />
+</form>

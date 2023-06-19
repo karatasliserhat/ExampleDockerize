@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<environment names="Development">
+    <h1>
+        Ortam: Development
+        <p>@ViewBag.MssqlCon</p>
+    </h1>
+    
+</environment>
+<environment names="Application">
+    <h1>
+        Ortam: Application
+        <p>@ViewBag.MssqlCon</p>
+
+    </h1>
+</environment>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

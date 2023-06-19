@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\glb90090219\Documents\Tfs\serhatkaratasli\IdentityUserProject\ExampleDockerize\AspNetCoreMvc\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-06-19T09:56:33.3646493Z;True|2023-06-19T12:41:57.8969482+03:00;True|2023-06-19T12:22:16.6609159+03:00;True|2023-06-18T11:32:01.6601291+03:00;True|2023-06-18T11:11:38.3248678+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
